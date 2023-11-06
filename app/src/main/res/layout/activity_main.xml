@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:stretchColumns="1"
+    android:padding="20sp"
+    android:id="@+id/android_main"
+    tools:context=".MainActivity">
+
+    <TableRow android:padding="5dp">
+        <TextView
+            android:layout_height="wrap_content"
+            android:text = "Table Layout Test"
+            android:typeface="serif"
+            android:layout_span="2"
+            android:gravity="center_horizontal"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow >
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Enter Android Version:" />
+        <EditText
+            android:id="@+id/android_version"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow >
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Enter android code Name:" />
+        <EditText
+            android:id="@+id/code_name"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow >
+        <Button
+            android:layout_span="2"
+            android:id="@+id/add_button"
+            android:layout_height="wrap_content"
+            android:text="Add" />
+    </TableRow>
+
+
+
+
+
+</TableLayout>
